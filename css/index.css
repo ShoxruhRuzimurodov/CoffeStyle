@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*   Header about  */
+
+
+.header__wrap {
+  width: 1240px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+  height: 56px;
+  line-height: 56px;
+  width: auto;
+}
+
+.navbar {
+  width: 500px;
+  height: 56px;
+}
+
+.navbar__ul {
+  width: 500px;
+  height: 56px;
+  line-height: 56px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.navbar__list {
+  color: rgb(29, 31, 46);
+  list-style-type: none;
+}
+
+.btn {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 0 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/*   Header about  */
+
+
+/*   Hero about  */
+
+
+.section-wrap {
+  width: auto;
+  height: 500px;
+  margin-top: 20px;
+}
+
+.bg-img {
+  background-image: url("https://picsum.photos/1000/498");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 498px;
+}
+
+.section__text {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  padding: 150px 0 15px 0;
+}
+
+.section__header {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+
+.section__text-item {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.wrap-btn {
+  width: auto;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.bg-btn {
+  padding: 5px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(255, 255, 0, 0.3);
+}
+
+.bg-btn:hover {
+  background-color: rgb(255, 255, 0, 0.5);
+}
+
+
+/*   Hero about  */
+
+
+.site-item-about {
+  width: 1240px;
+  height: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-about {
+  margin-top: 150px;
+}
+
+.site-about__heading {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+}
+
+.site-about__text {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+}
+
+.site-about__link {
+  text-decoration: none;
+  color:#A25F4B;
+  padding: 12px 0;
+
+}
+
+.site-about__link:hover {
+  border-bottom: 1px solid #A25F4B;
+}
+
+.site-about__span {
+  padding-top: 25px;
+}
